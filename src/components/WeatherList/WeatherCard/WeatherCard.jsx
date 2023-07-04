@@ -1,8 +1,8 @@
 import React from "react";
 import './WeatherCard.css'
 
-const WeatherCard = ({ temperature, weather, clouds, date, wind_speed, city, time }) => {
-  return <article className="weather-data">
+const WeatherCard = ({ temperature, weather, clouds, date, wind_speed, city, time, id }) => {
+  return <article className="weather-data" id={id}>
     <h2>{date}</h2>
     <h2>{time}</h2>
     <h3>{city}</h3>
