@@ -1,0 +1,44 @@
+.weather-data {
+    background-color: rgb(245, 253, 255);
+    padding: 4%;
+    border-radius: 3vw 3vw;
+    width: 70%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+.weather-data > h2 {
+    font-size: 7vw;
+    margin: 0;
+    color: rgb(0, 29, 45);
+}
+
+.weather-data > h3 {
+    font-size: 5.5vw;
+    color: rgb(0, 29, 45);
+}
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.value-container > img {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.value {
+    font-size: 3.5vw;
+}
